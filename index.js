@@ -44,5 +44,5 @@ const marquesBeaute = [
     "Laura Mercier - Une marque de maquillage réputée pour ses produits de qualité, notamment ses poudres fixatrices et ses produits pour le teint."
   ];
   function generateMessage() {
-    
+    let marque = marquesBeaute[Math.floor(Math.random()*marquesBeaute.length)];
   }
