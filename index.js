@@ -43,3 +43,6 @@ const marquesBeaute = [
     "Tarte Cosmetics - Une marque de cosmétiques proposant des produits naturels et respectueux de l'environnement, notamment des fonds de teint et des palettes de fards à paupières.",
     "Laura Mercier - Une marque de maquillage réputée pour ses produits de qualité, notamment ses poudres fixatrices et ses produits pour le teint."
   ];
+  function generateMessage() {
+    
+  }
