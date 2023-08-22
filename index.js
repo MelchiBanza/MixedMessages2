@@ -45,4 +45,6 @@ const marquesBeaute = [
   ];
   function generateMessage() {
     let marque = marquesBeaute[Math.floor(Math.random()*marquesBeaute.length)];
+    let brief = explicationsMarques[Math.floor(Math.random()*explicationsMarques.length)];
+
   }
