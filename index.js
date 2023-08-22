@@ -43,8 +43,12 @@ const marquesBeaute = [
     "Tarte Cosmetics - Une marque de cosmétiques proposant des produits naturels et respectueux de l'environnement, notamment des fonds de teint et des palettes de fards à paupières.",
     "Laura Mercier - Une marque de maquillage réputée pour ses produits de qualité, notamment ses poudres fixatrices et ses produits pour le teint."
   ];
-  function generateMessage() {
-    let marque = marquesBeaute[Math.floor(Math.random()*marquesBeaute.length)];
-    let brief = explicationsMarques[Math.floor(Math.random()*explicationsMarques.length)];
 
+  function generateMessage() {
+    let r = Math.floor(Math.random()*marquesBeaute.length);
+    let marque = marquesBeaute[r];
+    let brief = explicationsMarques[r];
+    let message = "La marque " + marque + " ,  " + brief;
   }
+
+  
