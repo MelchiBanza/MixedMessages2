@@ -49,6 +49,6 @@ const marquesBeaute = [
     let marque = marquesBeaute[r];
     let brief = explicationsMarques[r];
     let message = "La marque " + marque + " ,  " + brief;
+    return message;
   }
 
-  
