@@ -48,7 +48,9 @@ const marquesBeaute = [
     let r = Math.floor(Math.random()*marquesBeaute.length);
     let marque = marquesBeaute[r];
     let brief = explicationsMarques[r];
-    let message = "La marque " + marque + " ,  " + brief;
+    let message = "La marque " + marque + ",  " + brief;
     return message;
   }
 
+let messageAleatoire = generateMessage();
+console.log(messageAleatoire);
